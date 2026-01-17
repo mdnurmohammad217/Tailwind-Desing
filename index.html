@@ -21,7 +21,7 @@
 <body class="bg-[#F7F7F7]">
 
     <header
-        class="w-[1140px] h-[60px] backdrop-blur-3xl flex justify-between m-auto mt-2.5 border-1 border-pink-200 rounded-xl h-[70px] items-center p-1.5 sticky top-[10px] z-10">
+        class="w-full mx-w-[1140px] h-[60px] backdrop-blur-3xl flex justify-between m-auto mt-2.5 border-1 border-pink-200 rounded-xl h-[70px] items-center p-1.5 sticky top-[10px] z-10">
         <div class="w-[100px]">
             <img src="logo-light.png" alt="">
         </div>
@@ -60,9 +60,9 @@
 
 
 
-    <section class=" w-[1140px] m-auto mt-2.5">
+    <section class="w-full md:mx-w-[1000px] mt-2.5">
         <div
-            class="bg-[url(banner.webp)] bg-cover bg-no-repeat bg-center rounded-2xl w-[100%] h-[400px] flex justify-center items-center">
+            class="bg-[url(banner.webp)] bg-cover bg-no-repeat bg-center rounded-2xl w-full h-[400px] flex justify-center items-center">
             <!-- <img class=" w-[100%] h-[400px] border rounded-[20px]" src="banner.webp" alt=""> -->
             <div class="w-[750px] h-[350px] bg-black opacity-70 flex flex-col items-center justify-center rounded-3xl">
                 <div class="w-[80px] h-[80px] rounded-[50%] flex justify-center items-center bg-pink-600"><i
@@ -80,277 +80,339 @@
         </div>
     </section>
 
-    <section class="w-[1140px] m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4 ">
+    <h2 class="text-3xl font-bold text-center mt-7 p-6 bg-pink-100">Premium <span class="text-pink-600">Gift</span> Box</h2>
+    <section class="w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
+
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
 
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
+
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
             <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
-            </div>
-            <div class="flex justify-between items-center p-[10px]">
-                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
-                <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
-                    Now</button>
-            </div>
-        </div>
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
-
-            <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
+        
+
+
+
+    </section>
+
+    <h2 class="text-3xl font-bold text-center mt-7 p-6 bg-green-100">Women's <span class="text-green-600">Premium</span> Collection</h2>
+    <section class="w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/1.jpeg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/2.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/3.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
-            </div>
-            <div class="flex justify-between items-center p-[10px]">
-                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
-                <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
-                    Now</button>
-            </div>
-        </div>
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
-
-            <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
+
         </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/4.jpg" alt="">
 
             <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
+                <h2 class="text-md font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
             </div>
 
             <div class="flex justify-between items-center p-[10px]">
                 <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
                 <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
                     Now</button>
             </div>
-        </div>
 
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
-
-            <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
-            </div>
-
-            <div class="flex justify-between items-center p-[10px]">
-                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
-                <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
-                    Now</button>
-            </div>
-        </div>
-
-        <div class=" space-x-1 w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
-            <img class="rounded-[20px] mb-2.5" src="product.jpg" alt="">
-
-            <div class="p-[10px]">
-                <h2 class="text-2xl font-bold mb-[10px]">প্যাকেজ - 010 - কাতান বৃষ্টি ফোটা (নীল)</h2>
-                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন
-                    পাবেন।...</p>
-            </div>
-            <div class="flex justify-between items-center p-[10px]">
-                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
-                <button
-                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black hover:bg-emerald-900 text-white rounded-[10px] font-semibold">Buy
-                    Now</button>
-            </div>
         </div>
 
     </section>
 
-    <footer class="w-[1140px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-center m-auto py-6 px-3 mt-14">
+    <h2 class="text-3xl font-bold text-center mt-7 p-6 bg-blue-100">Men's <span class="text-blue-600">Premium</span> Collection</h2>
+    <section class="w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/belts.png" alt="">
+
+            <div class="p-[10px]">
+                <h2 class="text-md font-bold mb-[10px]">Belts</h2>
+                <p class="text-[#3d3d3d] text-[14px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit....
+                </p>
+            </div>
+
+            <div class="flex justify-between items-center p-[10px]">
+                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
+                <button
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
+                    Now</button>
+            </div>
+
+        </div>
+
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/wallet.png" alt="">
+
+            <div class="p-[10px]">
+                <h2 class="text-md font-bold mb-[10px]">Wallet</h2>
+                <p class="text-[#3d3d3d] text-[14px]">ipsum dolor, sit amet consectetur adipisicing elit....
+                </p>
+            </div>
+
+            <div class="flex justify-between items-center p-[10px]">
+                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
+                <button
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
+                    Now</button>
+            </div>
+
+        </div>
+
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/sandals.png" alt="">
+
+            <div class="p-[10px]">
+                <h2 class="text-md font-bold mb-[10px]">Sendals</h2>
+                <p class="text-[#3d3d3d] text-[14px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit....
+                </p>
+            </div>
+
+            <div class="flex justify-between items-center p-[10px]">
+                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
+                <button
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
+                    Now</button>
+            </div>
+
+        </div>
+
+        <div class=" space-x-1 w-full md:w-[280px] lg:w-[280px] rounded-[20px] p-1.5 bg-white shadow-xl">
+            <img class="rounded-[20px] mb-2.5" src="images/mens-shoes.png" alt="">
+
+            <div class="p-[10px]">
+                <h2 class="text-md font-bold mb-[10px]">Men Shoes</h2>
+                <p class="text-[#3d3d3d] text-[14px]">প্রিয়তমা কম্বো – প্রিমিয়াম কাঞ্জি কাতান শাড়ির কম্বো কালেকশন ...
+                </p>
+            </div>
+
+            <div class="flex justify-between items-center p-[10px]">
+                <h3 class="text-[#FF0051] text-2xl font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>1300</h3>
+                <button
+                    class=" pt-[8px] pl-[20px] pb-[8px] pr-[20px] bg-black transition-all duration-400 ease-in-out cursor-pointer hover:bg-emerald-900 text-white rounded-[10px] font-semibold hover:bg-pink-600 hover:shadow-2xl  hover:shadow-pink-600/50"><i
+                        class="fa-solid fa-cart-plus"></i> Buy
+                    Now</button>
+            </div>
+
+        </div>
+
+        
+
+        
+
+        
+
+
+
+    </section>
+
+    <footer
+        class="w-[1140px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:justify-between items-center m-auto py-6 px-3 mt-14">
         <div class="w-[280px]">
             <img class="w-20" src="logo-light.png" alt="">
             <p class="text-[12px] text-[#636363] py-3">উপহার সামগ্রীর বিশ্বস্ত সাইট। এখানে জন্মদিন, বিবাহ বার্ষিকী ও
@@ -377,7 +439,7 @@
 
         </div>
 
-        <div class="w-[280px]">
+        <div class="">
             <h4 class="text-md font-bold sm:pt-4">দ্রুত লিংক</h4>
             <ul class="text-[12px] text-[#636363] py-3 space-y-3">
                 <li>আমাদের সম্পর্কে</li>
@@ -386,7 +448,7 @@
             </ul>
         </div>
 
-        <div class="w-[280px]">
+        <div class="">
             <h4 class="text-md font-bold md:pt-2">কাস্টমার সার্ভিস</h4>
             <ul class="text-[12px] text-[#636363] py-3 space-y-3">
                 <li>রিটার্ন পলিসি</li>
@@ -395,7 +457,7 @@
             </ul>
         </div>
 
-        <div class="w-[280px]">
+        <div class="">
             <h4 class="text-md font-bold">যোগাযোগ</h4>
             <ul class="flex flex-col space-y-3 py-3 text-[12px] text-[#636363]">
 
