@@ -5,27 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+
+
+
     <title>Tailwind Design</title>
 </head>
 
-<body>
+<body class="bg-[#F7F7F7]">
 
     <header
-        class="w-[1140px] h-[80px] backdrop-blur-3xl flex justify-between m-auto mt-2.5 border-1 border-pink-200 rounded-xl h-[70px] items-center p-2.5 sticky top-[10px] z-10">
+        class="w-[1140px] h-[60px] backdrop-blur-3xl flex justify-between m-auto mt-2.5 border-1 border-pink-200 rounded-xl h-[70px] items-center p-1.5 sticky top-[10px] z-10">
         <div class="w-[100px]">
             <img src="logo-light.png" alt="">
         </div>
         <nav>
             <ul
-                class="flex gap-5 justify-center text-[16px] font-semibold text-pink-600 hover:text-pink-900 cursor-pointer">
+                class="flex gap-5 justify-center text-[16px] font-semibold text-pink-600 hover:text-pink-900 cursor-pointer font-[Tiro Bangla]">
                 <li>হোম</li>
                 <li>সকল গিফট</li>
                 <li>আমাদের সম্পর্কে</li>
@@ -34,38 +36,42 @@
             </ul>
         </nav>
         <div class="flex justify-end items-end gap-2.5">
-        <div class="w-[50px] h-[50px] text-pink-600 drop-shadow-2xl bg-white text-center text-2xl rounded-xl flex justify-center items-center">
-            <i class="fa-solid fa-user-gear"></i>
-        </div>
-        <div class="w-[50px] h-[50px] text-pink-600 drop-shadow-2xl bg-white  text-center text-2xl rounded-xl flex justify-center items-center">
-            <i class="fa-solid fa-shield-heart"></i>
-        </div>
-        <div class="w-[50px] h-[50px] text-pink-600 drop-shadow-2xl bg-white  text-center text-2xl rounded-xl flex justify-center items-center">
-            <i class="fa-solid fa-bars-staggered"></i>
+            <div
+                class="w-[50px] h-[50px] text-pink-600 drop-shadow-2xl bg-white text-center text-2xl rounded-xl flex justify-center items-center">
+                <i class="fa-solid fa-user-gear"></i>
+            </div>
+            <div
+                class="w-[50px] h-[50px] text-pink-600 drop-shadow-2xl bg-white  text-center text-2xl rounded-xl flex justify-center items-center">
+                <i class="fa-solid fa-shield-heart"></i>
+            </div>
+            <div
+                class="w-[50px] h-[50px] text-pink-600 drop-shadow-2xl bg-white  text-center text-2xl rounded-xl flex justify-center items-center">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+
+            <button
+                class="p-2.5 text-[16px] bg-pink-600 text-white border-2 border-pink-700 rounded-xl hover:bg-pink-900"><i
+                    class="fa-solid fa-gift"></i><a href="https://siteghor.com" target="_blank">Special Gift</a>
+            </button>
         </div>
 
-        <button
-            class="p-2.5 text-[16px] bg-pink-600 text-white border-2 border-pink-700 rounded-xl hover:bg-pink-900"><i
-                class="fa-solid fa-gift"></i><a href="https://siteghor.com" target="_blank">Special Gift</a> 
-        </button>
-            </div>
-        
-        
+
     </header>
 
-   
+
 
     <section class=" w-[1140px] m-auto mt-2.5">
         <div
             class="bg-[url(banner.webp)] bg-cover bg-no-repeat bg-center rounded-2xl w-[100%] h-[400px] flex justify-center items-center">
             <!-- <img class=" w-[100%] h-[400px] border rounded-[20px]" src="banner.webp" alt=""> -->
             <div class="w-[750px] h-[350px] bg-black opacity-70 flex flex-col items-center justify-center rounded-3xl">
-                <div class="w-[80px] h-[80px] rounded-[50%] flex justify-center items-center bg-pink-600"><i class="fa-solid fa-gift text-white text-4xl "></i></div>
+                <div class="w-[80px] h-[80px] rounded-[50%] flex justify-center items-center bg-pink-600"><i
+                        class="fa-solid fa-gift text-white text-4xl "></i></div>
                 <h2 class="text-5xl font-bold text-white">Welcome My Upohar Shop</h2>
                 <p class="text-center w-xl text-white m-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias et quia inventore voluptas magnam ea. A provident cum nisi quasi officia expedita aut!
                     Corrupti, nisi? Consequatur ad sunt fuga asperiores.</p>
-                    
+
                 <button
                     class="p-2.5 text-[16px] bg-pink-600 text-white border-2 border-pink-700 rounded-xl hover:bg-pink-900"><i
                         class="fa-solid fa-bag-shopping"></i> Shop Now</button>
@@ -344,6 +350,66 @@
 
     </section>
 
+    <footer class="w-[1140px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between items-center m-auto py-6 px-3 mt-14">
+        <div class="w-[280px]">
+            <img class="w-20" src="logo-light.png" alt="">
+            <p class="text-[12px] text-[#636363] py-3">উপহার সামগ্রীর বিশ্বস্ত সাইট। এখানে জন্মদিন, বিবাহ বার্ষিকী ও
+                বিশেষ মুহূর্তের জন্য সব ধরনের উপহার আইটেম
+                পাওয়া যায়।</p>
+            <div class="flex gap-2">
+                <div
+                    class="w-9 h-9 bg-white text-pink-600 text-xl flex justify-center items-center rounded-xl shadow-md">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div
+                    class="w-9 h-9 bg-white text-pink-600 text-xl flex justify-center items-center rounded-xl shadow-md">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div
+                    class="w-9 h-9 bg-white text-pink-600 text-xl flex justify-center items-center rounded-xl shadow-md">
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+                <div
+                    class="w-9 h-9 bg-white text-pink-600 text-xl flex justify-center items-center rounded-xl shadow-md">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-[280px]">
+            <h4 class="text-md font-bold sm:pt-4">দ্রুত লিংক</h4>
+            <ul class="text-[12px] text-[#636363] py-3 space-y-3">
+                <li>আমাদের সম্পর্কে</li>
+                <li>যোগাযোগ</li>
+                <li>সাধারণ প্রশ্নোত্তর</li>
+            </ul>
+        </div>
+
+        <div class="w-[280px]">
+            <h4 class="text-md font-bold md:pt-2">কাস্টমার সার্ভিস</h4>
+            <ul class="text-[12px] text-[#636363] py-3 space-y-3">
+                <li>রিটার্ন পলিসি</li>
+                <li>অর্ডার ট্র্যাক করুন</li>
+                <li>প্রাইভেসি পলিসি</li>
+            </ul>
+        </div>
+
+        <div class="w-[280px]">
+            <h4 class="text-md font-bold">যোগাযোগ</h4>
+            <ul class="flex flex-col space-y-3 py-3 text-[12px] text-[#636363]">
+
+                <li><i class="fa-solid fa-phone text-pink-600"></i> +880 123 456 789</li>
+                <li><i class="fa-solid fa-envelope text-pink-600"></i> admin@gmail.com</li>
+                <li><i class="fa-solid fa-location-dot text-pink-600"></i> Dhak, Bangladesh</li>
+
+            </ul>
+
+
+        </div>
+
+
+    </footer>
 
 
 </body>
